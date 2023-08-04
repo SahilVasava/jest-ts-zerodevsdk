@@ -1,4 +1,4 @@
-# Boilerplater poc for using @zerodevapp/sdk@alpha with Jest - Typescript
+# Boilerplater POC for using @zerodevapp/sdk@alpha with Jest - Typescript
 
 Tested with node versions `18.x` and `20.x`
 

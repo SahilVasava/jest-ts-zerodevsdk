@@ -1,23 +1,15 @@
-# node-typescript-jest-boilerplate
+# Boilerplater poc for using @zerodevapp/sdk@alpha with Jest - Typescript
 
-Boilerplate for a node server or library written in typescript, using jest as
-the test runner.
+Tested with node versions `18.x` and `20.x`
 
-## Usage
-
-Clone the boilerplate as a new project:
+## Install
 
 ```bash
-git clone https://github.com/bschlenk/node-typescript-jest-boilerplate.git <project>
+npm install
 ```
 
-Update [package.json](package.json) as you see fit.
+## Run test
 
-## Modifications
-
-If this is for a library only, then chances are you don't need nodemon. You can
-make the following changes to remove it:
-
-- Delete `nodemon.json`
-- Remove `watch` from `package.json` scripts
-- Remove `nodemon` from `package.json` devDependencies
+```bash
+NODE_OPTIONS=--experimental-vm-modules  npm run test:unit
+```

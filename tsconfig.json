@@ -12,10 +12,5 @@
     "esModuleInterop": true
   },
   "include": ["src"],
-  "exclude": ["**/*/node_modules"],
-  "ts-node": {
-    "compilerOptions": {
-      "module": "ESNext"
-    }
-  }
+  "exclude": ["**/*/node_modules"]
 }
